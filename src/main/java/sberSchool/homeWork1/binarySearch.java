@@ -5,14 +5,14 @@ import java.util.Scanner;
 
 public class binarySearch {
     public static void main(String[] args) {
-        int[] numbers = numbersSorted(100);
+        int[] numbers = numbers(100);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число от 1 до 100: ");
         int findNumber = scanner.nextInt();
         binarySearch(numbers, findNumber);
     }
 
-    static int[] numbersSorted(int length) {
+    static int[] numbers(int length) {
         int[] numbers = new int[length];
         for (int i = 0; i < length; i++) {
             numbers[i] = i;
@@ -22,7 +22,7 @@ public class binarySearch {
 
     static int binarySearch(int[] mass, int number) {
         int low = 0;
-        int high = mass.length;
+        int high = mass.length - 1;
 
         while (low <= high) {
             int middle = (high + low) / 2;
