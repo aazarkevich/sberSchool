@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08910979-226a-426d-a763-cfcffe9eb956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/car/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/word/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/word/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/word/words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/binarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/binarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Rect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Rect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Temperature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Temperature.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +133,7 @@
       <updated>1648889410339</updated>
       <workItem from="1648889414935" duration="7584000" />
       <workItem from="1648924303944" duration="3995000" />
-      <workItem from="1649261712126" duration="15023000" />
+      <workItem from="1649261712126" duration="19175000" />
     </task>
     <servers />
   </component>
