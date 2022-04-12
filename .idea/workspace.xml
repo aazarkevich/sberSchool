@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08910979-226a-426d-a763-cfcffe9eb956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/car/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/word/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/word/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork2/word/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sberSchool.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/binarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/binarySearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Person.class" afterDir="false" />
@@ -45,8 +44,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.validation" />
@@ -63,20 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork1.temperature.Main" />
-      <module name="sberSchool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sberSchool.homeWork1.temperature.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork1.homeWork1_1.Main" />
       <module name="sberSchool" />
@@ -116,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork3.task1.Main" />
+      <module name="sberSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sberSchool.homeWork3.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork1.binarySearch" />
       <module name="sberSchool" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +152,7 @@
       <workItem from="1648889414935" duration="7584000" />
       <workItem from="1648924303944" duration="3995000" />
       <workItem from="1649261712126" duration="15023000" />
+      <workItem from="1649760420926" duration="5625000" />
     </task>
     <servers />
   </component>
