@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08910979-226a-426d-a763-cfcffe9eb956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMapImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMapImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sberSchool.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/binarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/binarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/homeWork1_1/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Rect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Rect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/shapes/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Temperature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork1/temperature/Temperature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork1.homeWork1_1.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork3.task2.Main" />
       <module name="sberSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sberSchool.homeWork1.homeWork1_1.*" />
+          <option name="PATTERN" value="sberSchool.homeWork3.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.binarySearch" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +141,7 @@
       <workItem from="1648924303944" duration="3995000" />
       <workItem from="1649261712126" duration="15023000" />
       <workItem from="1649760420926" duration="5625000" />
+      <workItem from="1649833856181" duration="8795000" />
     </task>
     <servers />
   </component>
