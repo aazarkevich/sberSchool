@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08910979-226a-426d-a763-cfcffe9eb956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/CountMapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/CollectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/CollectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/CollectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/CollectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
