@@ -20,9 +20,8 @@ public class Main {
 //        testik2.forEach(System.out::println);
 
 //        System.out.println(CollectionUtils.containsAll(testik,testik2));
-//        System.out.println(CollectionUtils.containsAny(testik, testik2));
+        System.out.println(CollectionUtils.containsAny(testik, testik2));
 
-        Integer.compare(1,5);
     }
 
     static void test(List<? super Integer> testList) {
