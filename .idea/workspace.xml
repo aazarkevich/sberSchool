@@ -4,10 +4,7 @@
     <list default="true" id="08910979-226a-426d-a763-cfcffe9eb956" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/CollectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/CollectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork3/task2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork3/task1/CountMapImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +139,7 @@
       <workItem from="1649261712126" duration="15023000" />
       <workItem from="1649760420926" duration="5625000" />
       <workItem from="1649833856181" duration="8795000" />
-      <workItem from="1649912509192" duration="2880000" />
+      <workItem from="1649912509192" duration="3038000" />
     </task>
     <servers />
   </component>
