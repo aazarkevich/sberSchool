@@ -1,4 +1,4 @@
-package sberSchool.homework4;
+package sberSchool.homework4.task1;
 
 import java.util.Objects;
 
