@@ -32,7 +32,7 @@ public class Main {
         }catch (ConnectException e) {
             System.out.println("Connection not found.");
         } catch (IOException e) {
-            System.out.println("read error");
+            e.printStackTrace();
         }
 
     }
