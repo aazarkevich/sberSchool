@@ -9,5 +9,8 @@
         <module name="sberSchool" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sberSchool" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

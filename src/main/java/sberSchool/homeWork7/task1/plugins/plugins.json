@@ -1,0 +1,6 @@
+{
+  "path": "C:\\Users\\Артем\\IdeaProjects\\sberSchool\\target\\classes\\sberSchool\\homeWork7\\task1\\plugins",
+  "pluginsName": ["PluginHello","PluginTwo"],
+  "entryPoint": "doUsefull",
+  "pluginsClassName": ["sberSchool.homeWork7.task1.plugins.PluginHello", "sberSchool.homeWork7.task1.plugins.PluginTwo"]
+}
