@@ -2,7 +2,7 @@ package sberSchool.homework8.keepers;
 
 import sberSchool.homework8.service.Service;
 
-import java.io.FileOutputStream;
+import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -19,34 +19,56 @@ public class InFileSave {
 
     public double SaveFile(boolean[] saveArgs, Method method, Object[] args) throws InvocationTargetException, IllegalAccessException {
         Object rezult = null;
-        for (Object[] key: caches.keySet()) {
-            if(Arrays.equals(key,args)) {
-                System.out.println("CASHES");
-                return (double) caches.get(key);
-            }
+
+        try {
+            rezult = findRezult(args);
+        } catch (Exception e) {
+            //save rezult
         }
 
         if (saveArgs[0] == saveArgs[1] && saveArgs[0] != false) {
             caches.put(args, method.invoke(service, args));
 
         } else if (saveArgs[0] && !saveArgs[1]) {
-            Object[] argsOne  = Arrays.copyOf(args, 1);
+            Object[] argsOne = Arrays.copyOf(args, 1);
             caches.put(argsOne, method.invoke(service, args));
         } else {
             Object[] argsTwo = Arrays.copyOfRange(args, 1, 2);
             caches.put(argsTwo, method.invoke(service, args));
         }
 
-//        try (FileOutputStream fos = new FileOutputStream("test.ser");
-//        ) {
-//
-//        }
+        try (FileOutputStream fos = new FileOutputStream("test.ser");
+             ObjectOutputStream oos = new ObjectOutputStream(fos)) {
+           oos.writeObject(caches);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         return (double) method.invoke(service, args);
     }
 
 
-    private double findRezult() {
-        return 0;
+    private double findRezult(Object[] args) throws Exception {
+        try(FileInputStream fis = new FileInputStream("test.ser");
+            ObjectInputStream ois = new ObjectInputStream(fis)) {
+            caches = (HashMap) ois.readObject();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        for (Object[] key : caches.keySet()) {
+            if (Arrays.equals(key, args)) {
+                System.out.println("CASHES FILE");
+                return (double) caches.get(key);
+            }
+        }
+        throw new Exception("Not found value.");
+
     }
 }

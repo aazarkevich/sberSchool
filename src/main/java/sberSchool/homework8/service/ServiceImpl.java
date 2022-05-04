@@ -10,7 +10,7 @@ import java.util.Map;
 public class ServiceImpl implements Service {
 
     @Override
-    @Cache(cachetype = CacheType.IN_MEMORY, fileNamePrefix = "",
+    @Cache(cachetype = CacheType.FILE, fileNamePrefix = "",
             zip = false, identityBy = {String.class, Integer.class}, saveArgs = {false, false})
     public double doHardWork(String key, Integer value) {
 
