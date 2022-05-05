@@ -4,13 +4,9 @@ import sberSchool.homework8.keepers.InFileSave;
 import sberSchool.homework8.keepers.InMemorySave;
 import sberSchool.homework8.service.Service;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class CacheProxyInvocationHandler implements InvocationHandler {
     private Service service;
@@ -28,16 +24,22 @@ public class CacheProxyInvocationHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        System.out.println(Arrays.toString(method.getDeclaredAnnotations()));
         if (method.isAnnotationPresent(Cache.class)) {
             Cache annotation = method.getAnnotation(Cache.class);
             System.out.println(method.getAnnotation(Cache.class).cachetype());
-            if (method.getAnnotation(Cache.class).cachetype() == CacheType.IN_MEMORY) {
+
+            if (annotation.cachetype() == CacheType.IN_MEMORY) {
                 boolean[] saveArgs = annotation.saveArgs();
                 double rezult = inMemorySave.saveMemory(saveArgs, method, args);
                 return rezult;
             } else {
                 boolean[] saveArgs = annotation.saveArgs();
-                double rezult = inFileSave.SaveFile(saveArgs, method, args);
+                String namePrefix = annotation.fileNamePrefix();
+                double rezult = inFileSave.SaveFile(saveArgs, method, args, namePrefix);
+                if(annotation.zip()) {
+                    inFileSave.zip(namePrefix);
+                }
                 return rezult;
             }
         }

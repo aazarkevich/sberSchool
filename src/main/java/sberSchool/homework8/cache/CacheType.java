@@ -1,6 +1,6 @@
 package sberSchool.homework8.cache;
 
 public enum CacheType {
-    IN_MEMORY,
-    FILE;
+    FILE,
+    IN_MEMORY;
 }

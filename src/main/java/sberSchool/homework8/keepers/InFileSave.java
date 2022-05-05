@@ -8,6 +8,8 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 public class InFileSave {
     private Map<Object[], Object> caches = new HashMap<>();
@@ -17,11 +19,12 @@ public class InFileSave {
         this.service = service;
     }
 
-    public double SaveFile(boolean[] saveArgs, Method method, Object[] args) throws InvocationTargetException, IllegalAccessException {
+    public double SaveFile(boolean[] saveArgs, Method method, Object[] args,
+                           String namePrefix) throws InvocationTargetException, IllegalAccessException {
         Object rezult = null;
 
         try {
-            rezult = findRezult(args);
+            rezult = findRezult(args, namePrefix);
         } catch (Exception e) {
             //save rezult
         }
@@ -37,9 +40,9 @@ public class InFileSave {
             caches.put(argsTwo, method.invoke(service, args));
         }
 
-        try (FileOutputStream fos = new FileOutputStream("test.ser");
+        try (FileOutputStream fos = new FileOutputStream(String.format("cache%s.ser", namePrefix));
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-           oos.writeObject(caches);
+            oos.writeObject(caches);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -50,9 +53,9 @@ public class InFileSave {
     }
 
 
-    private double findRezult(Object[] args) throws Exception {
-        try(FileInputStream fis = new FileInputStream("test.ser");
-            ObjectInputStream ois = new ObjectInputStream(fis)) {
+    private double findRezult(Object[] args, String namePrefix) throws Exception {
+        try (FileInputStream fis = new FileInputStream(String.format("cache%s.ser", namePrefix));
+             ObjectInputStream ois = new ObjectInputStream(fis)) {
             caches = (HashMap) ois.readObject();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -69,6 +72,28 @@ public class InFileSave {
             }
         }
         throw new Exception("Not found value.");
+    }
 
+    public void zip(String namePrefix) {
+        File fileToZip = new File(String.format("cache%s.ser", namePrefix));
+        try {
+            FileOutputStream fos = new FileOutputStream("cacheZip");
+            ZipOutputStream zipOut = new ZipOutputStream(fos);
+            FileInputStream fis = new FileInputStream(fileToZip);
+            ZipEntry zipEntry = new ZipEntry(fileToZip.getName());
+            zipOut.putNextEntry(zipEntry);
+            byte[] bytes = new byte[1024];
+            int length;
+            while((length = fis.read(bytes)) >= 0) {
+                zipOut.write(bytes,0,length);
+            }
+            zipOut.close();
+            fis.close();
+            fos.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
