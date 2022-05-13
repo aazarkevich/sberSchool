@@ -9,5 +9,5 @@ public interface Service {
     @Cache(cachetype = CacheType.FILE, fileNamePrefix = "Data",
             zip = true, saveArgs = {true, true})
     double doHardWork(String key, Integer value);
-    
+
 }
