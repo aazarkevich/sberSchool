@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d13dc20a-9a77-4311-801a-059c639f928f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork9/ThreadFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork9/ThreadFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork9/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork9/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork9/ThreadFactorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork9/ThreadFactorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork9/RandomNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork10/RandomNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork9/ThreadFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork10/ThreadFactorial.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork9.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork7.task1.Main" />
       <module name="sberSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sberSchool.homeWork9.*" />
+          <option name="PATTERN" value="sberSchool.homeWork7.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork7.task1.Main" />
+      <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork10.Main" />
       <module name="sberSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sberSchool.homeWork7.task1.*" />
+          <option name="PATTERN" value="sberSchool.homeWork10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,7 +154,7 @@
       <workItem from="1651658097829" duration="19890000" />
       <workItem from="1652246466556" duration="59000" />
       <workItem from="1652419138124" duration="6772000" />
-      <workItem from="1652440759136" duration="9765000" />
+      <workItem from="1652440759136" duration="10152000" />
     </task>
     <servers />
   </component>

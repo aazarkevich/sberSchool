@@ -1,4 +1,4 @@
-package sberSchool.homeWork9;
+package sberSchool.homeWork10;
 
 import java.io.FileWriter;
 import java.io.IOException;
