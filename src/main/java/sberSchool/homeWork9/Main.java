@@ -18,6 +18,6 @@ public class Main {
 //        System.out.println(k);
 
         ThreadFactorial threadFactorial = new ThreadFactorial("numbers.txt");
-        threadFactorial.show();
+        threadFactorial.startFindFactorials();
     }
 }

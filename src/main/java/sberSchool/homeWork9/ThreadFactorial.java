@@ -16,7 +16,7 @@ public class ThreadFactorial{
         try(BufferedReader in = new BufferedReader(new FileReader(fileFactorial))) {
             String line;
             while ((line = in.readLine()) != null) {
-                this.numbers.add(Integer.parseInt(line));
+                numbers.add(Integer.parseInt(line));
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -28,5 +28,31 @@ public class ThreadFactorial{
     public void show() {
         readFile();
         numbers.forEach(System.out::println);
+    }
+
+    private long calculateFactorials(int number) {
+        long rezult = 1;
+        for (int i = 1; i < number; i++) {
+            rezult *= i;
+        }
+        return rezult;
+    }
+
+    public void startFindFactorials() {
+        readFile();
+        for (int i = 0; i < numbers.size() - 1; i++) {
+            int index = i;
+            Thread thread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    synchronized (numbers) {
+                        System.out.println(calculateFactorials(numbers.get(index)));
+                        System.out.println();
+                    }
+                }
+            });
+            System.out.println(thread.getName());
+            thread.start();
+        }
     }
 }
