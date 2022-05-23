@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.Random;
 
 public class RandomNumbers {
-
     public static void createFile(String nameFile, int range) {
         try(FileWriter fileWriter = new FileWriter(nameFile, false))
         {

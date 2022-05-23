@@ -47,7 +47,7 @@ public class ThreadFactorial{
                 public void run() {
                     synchronized (numbers) {
                         System.out.println(calculateFactorials(numbers.get(index)));
-                        System.out.println();
+                        System.out.println(Thread.currentThread().getName());
                     }
                 }
             });
@@ -55,4 +55,6 @@ public class ThreadFactorial{
             thread.start();
         }
     }
+
+
 }
