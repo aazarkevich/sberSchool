@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13dc20a-9a77-4311-801a-059c639f928f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/FileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/FileImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/File.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/FileImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/FileImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +52,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,7 +195,8 @@
       <workItem from="1652770441747" duration="11918000" />
       <workItem from="1652852044448" duration="12599000" />
       <workItem from="1653285796333" duration="12453000" />
-      <workItem from="1655188693888" duration="10691000" />
+      <workItem from="1655188693888" duration="12685000" />
+      <workItem from="1655279167473" duration="11948000" />
     </task>
     <servers />
   </component>
