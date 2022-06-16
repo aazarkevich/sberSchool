@@ -15,6 +15,5 @@ public class Main {
                 "https://e7.pngegg.com/pngimages/178/925/png-clipart-cartoon-graphy-the-little-boy-wanted-to-question-child-photography-thumbnail.png",
                 "https://e7.pngegg.com/pngimages/152/1021/png-clipart-lion-cartoon-animation-lion-lion-mammal-animals-thumbnail.png"};
         file.download(paths);
-        
     }
 }

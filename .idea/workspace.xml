@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13dc20a-9a77-4311-801a-059c639f928f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sberSchool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sberSchool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/DownloadFiles/img01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/DownloadFiles/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork17/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/FileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork17/FileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork17/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/File.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/FileImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sberSchool/homeWork13/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sberSchool/homeWork17/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sberSchool.homeWork11.Main" />
       <module name="sberSchool" />
@@ -190,7 +178,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="JUnit.ThreadPoolTest.scalableThreadPollTest" />
@@ -222,7 +209,8 @@
       <workItem from="1655188693888" duration="12685000" />
       <workItem from="1655279167473" duration="11948000" />
       <workItem from="1655310358542" duration="5447000" />
-      <workItem from="1655362175377" duration="156000" />
+      <workItem from="1655362175377" duration="1119000" />
+      <workItem from="1655378140269" duration="14000" />
     </task>
     <servers />
   </component>
