@@ -1,7 +1,4 @@
-package sberSchool.homeWork13;
-
-import java.util.List;
-import java.util.Map;
+package sberSchool.homeWork17;
 
 public interface File {
     String getUrlFile(String url,String fileName);

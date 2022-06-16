@@ -1,26 +1,28 @@
-package sberSchool.homeWork13;
+package sberSchool.homeWork17;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
 import java.io.*;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 
+@Service
 public class FileImpl implements File {
-    private Map<String, List> files = new ConcurrentHashMap<>();
+    private String pathFileSave;
+
+    public FileImpl(@Value("${path.fileSave}") String pathFileSave) {
+        this.pathFileSave = pathFileSave;
+    }
 
     @Override
     public String getUrlFile(String url, String fileName) {
-        String pathFilename = "D:\\java\\sberSchool\\src\\main\\java\\sberSchool\\homeWork13\\DownloadFiles\\" + fileName;
-        try (FileOutputStream fout = new FileOutputStream(pathFilename);
+        String pathFileName = pathFileSave + fileName;
+        try (FileOutputStream fout = new FileOutputStream(pathFileName);
              BufferedInputStream in = new BufferedInputStream(new URL(url).openStream())) {
-            synchronized (in) {
+            synchronized (fout) {
                 byte data[] = new byte[1024];
                 int count;
                 while ((count = in.read(data, 0, 64)) != -1) {
@@ -31,20 +33,20 @@ public class FileImpl implements File {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return pathFilename;
+        return pathFileName;
     }
 
     @Override
     public void download(String[] paths) {
         ExecutorService service = Executors.newFixedThreadPool(3);
+        int count = 1;
         for (String path : paths) {
-            int count = 1;
-            String fileName = "img" + count + ".png";
+            StringBuffer fileName = new StringBuffer("img").append(count).append(".png");
             count++;
             System.out.println(count);
             service.submit(() -> {
-                String urlFile = getUrlFile(path, fileName);
-                System.out.printf("Поток %s, загрузил файл по пути %s и сохранил %s", Thread.currentThread().getName(),path, urlFile);
+                String urlFile = getUrlFile(path, fileName.toString());
+                System.out.printf("Поток %s, загрузил файл по пути %s и сохранил %s \n", Thread.currentThread().getName(),path, urlFile);
             });
         }
         service.shutdown();
